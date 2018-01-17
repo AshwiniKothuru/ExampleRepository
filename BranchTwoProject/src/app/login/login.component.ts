@@ -8,14 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
   email:string ="Ashwini";
   password:string ="Ashwini";
-  details: Array<Object> = [{email: 'asdf', password: 'sdfvsd'}];
+  details: Array<Object> = [{email: 'asdf', password: 'sdfvsd'}]; //array defining
+
   
   constructor() { }
   
   ngOnInit() {
   }
   
-  signIn(){
+  signIn(){ //this is function 
     var data = {email: this.email, password: this.password};
     this.details.push(data);
   }

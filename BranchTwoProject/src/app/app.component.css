@@ -1,7 +1,12 @@
 .sign_up_block{
-    margin-left: 33%;
+
+    margin-top: 5%;
 }
 
+.sign_up_block{
+    text-align: center;
+    
+}
 .blocks{
     border: 1px solid;
 }

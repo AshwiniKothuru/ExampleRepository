@@ -4,12 +4,33 @@
 }
 
 .sign_up_block{
-    margin-left: 33%;
+    margin-left: 23%;
+
 }
 
 .table_block{
     margin-top: 2em;
 }
-.card-title h5{
-    text-align: center;
+.card .card-body img{
+    align-content: center;
+    
+}
+  
+.card-body card-title h5{
+   align-content: center;
+}
+.card {
+    margin-top: 5%;
+    margin-left: 20%;
+    align-content: center;
+}
+.btn btn-primary {
+align-content: center;
+align-items: center
+}
+img{
+    align-items: center
+}
+.thead-Info{
+    color: cornflowerblue
 }

@@ -30,17 +30,18 @@
                 <td>{{detail.inputEmail}}</td>
                 <td>{{detail.inputPassword}}</td></tr>
             </table>
-        </div>
+        </div> -->
         
-    -->
-    <div class="card" style="width: 50rem;">
+
+    <div class="card" style="width: 40rem; height: 30rem">
             <div class="card-body">
-              <h5 class="card-title">Gmail</h5>
+              <img src="../../assets/Images/google-icon.png" height="80" width="80" >
+              <h5 class="card-title" style="text-align: center">Sign in</h5>
               <form class="form_body sign_up_block">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" [(ngModel)]="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
@@ -48,17 +49,19 @@
                     </div>
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <label class="form-check-label" for="exampleCheck1">Remember Password</label>
                     </div>
-                    <button type="submit" class="btn btn-primary" (click)="signIn()">Submit</button>
+                    <div></div>
+                    <button type="submit" class="btn btn-primary" (click)="signIn()">Sign in</button>
                 </form>
             
             </div>
-          </div>
-    
+     </div> 
+
+<div class="table-responsive">     
     <div class="table_block">
         <table class="table table-striped">
-            <thead>
+            <thead class="thead-Info">
                 <tr>
                     <th scope="col">Email</th>
                     <th scope="col">Password</th>
@@ -72,4 +75,5 @@
             </tbody>
         </table>
     </div>
+</div>
     
