@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
   email:string ="Ashwini";
   password:string ="Ashwini";
-  details: Array<Object> = [{email: 'asdf', password: 'sdfvsd'}]; //array defining
+  details: Array<Object> = [{email: 'Ashwini', password: 'Ashwini'},{
+email: 'prasad' ,password:'Prasad' }]; //array defining
 
   
   constructor() { }

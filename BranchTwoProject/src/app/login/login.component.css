@@ -5,9 +5,10 @@
 
 .sign_up_block{
     margin-left: 23%;
-
 }
-
+.imageCenter{
+    margin-left: 43%;
+}
 .table_block{
     margin-top: 2em;
 }
@@ -32,5 +33,9 @@ img{
     align-items: center
 }
 .thead-Info{
-    color: cornflowerblue
+    color: rgb(14, 67, 167)
+}
+.button-text{
+    margin-top: 8%;
+    margin-left: 35%;
 }
